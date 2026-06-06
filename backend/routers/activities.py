@@ -2,10 +2,10 @@ import pandas as pd
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 from sqlalchemy.orm import Session
 from typing import List
-from backend.database import get_db
-from backend.models import User, Activity, Project
-from backend.schemas import ActivityCreate, ActivityResponse, CSVUploadResponse
-from backend.routers.auth import get_current_user
+from database import get_db
+from models import User, Activity, Project
+from schemas import ActivityCreate, ActivityResponse, CSVUploadResponse
+from routers.auth import get_current_user
 
 router = APIRouter(prefix="/activity", tags=["Activities"])
 

@@ -1,0 +1,100 @@
+Adding GitHub-based activity data for dev1-dev4...
+
+Processing dev1...
+  Using existing project: dev1's GitHub Project (ID: 8)
+  GitHub data: 1 repos, 1 followers
+  Creating 4 activities...
+    Activity 1 for ui:
+      Commits: 6
+      Lines: +117/-36
+      Files: 3
+      Bugs: 0
+    Activity 2 for auth:
+      Commits: 5
+      Lines: +220/-100
+      Files: 2
+      Bugs: 0
+    Activity 3 for api:
+      Commits: 3
+      Lines: +184/-20
+      Files: 5
+      Bugs: 0
+    Activity 4 for database:
+      Commits: 2
+      Lines: +168/-32
+      Files: 3
+      Bugs: 0
+
+Processing dev2...
+  Using existing project: dev2's GitHub Project (ID: 9)
+  GitHub data: 0 repos, 2 followers
+  Creating 3 activities...
+    Activity 1 for database:
+      Commits: 6
+      Lines: +183/-91
+      Files: 2
+      Bugs: 0
+    Activity 2 for utils:
+      Commits: 3
+      Lines: +203/-39
+      Files: 3
+      Bugs: 0
+    Activity 3 for api:
+      Commits: 2
+      Lines: +201/-92
+      Files: 4
+      Bugs: 0
+
+Processing dev3...
+  Using existing project: dev3's GitHub Project (ID: 10)
+  GitHub data: 4 repos, 3 followers
+  Creating 5 activities...
+    Activity 1 for auth:
+      Commits: 4
+      Lines: +473/-124
+      Files: 5
+      Bugs: 0
+    Activity 2 for ui:
+      Commits: 11
+      Lines: +345/-58
+      Files: 1
+      Bugs: 1
+    Activity 3 for utils:
+      Commits: 12
+      Lines: +348/-82
+      Files: 3
+      Bugs: 0
+    Activity 4 for database:
+      Commits: 11
+      Lines: +597/-243
+      Files: 6
+      Bugs: 0
+    Activity 5 for api:
+      Commits: 6
+      Lines: +525/-145
+      Files: 1
+      Bugs: 1
+
+Processing dev4...
+  Using existing project: dev4's GitHub Project (ID: 11)
+  GitHub data: 1 repos, 0 followers
+  Creating 3 activities...
+    Activity 1 for database:
+      Commits: 4
+      Lines: +142/-63
+      Files: 6
+      Bugs: 0
+    Activity 2 for auth:
+      Commits: 3
+      Lines: +115/-29
+      Files: 6
+      Bugs: 0
+    Activity 3 for utils:
+      Commits: 4
+      Lines: +111/-43
+      Files: 1
+      Bugs: 0
+
+GitHub-based activity data loading complete.
+You can now login to the website as any dev1-dev4 to see their GitHub-inspired activity data.
+Credentials: devX@example.com / DevPass123!

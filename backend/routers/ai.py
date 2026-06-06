@@ -2,11 +2,11 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List
-from backend.database import get_db
-from backend.models import User, Project, Activity
-from backend.schemas import RiskPrediction, AIInsight
-from backend.ml.risk_model import predict_risk as ml_predict_risk
-from backend.routers.auth import get_current_user
+from database import get_db
+from models import User, Project, Activity
+from schemas import RiskPrediction, AIInsight
+from ml.risk_model import predict_risk as ml_predict_risk
+from routers.auth import get_current_user
 from datetime import datetime
 
 router = APIRouter(prefix="/ai", tags=["AI"])

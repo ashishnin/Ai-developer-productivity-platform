@@ -2,10 +2,10 @@ from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List
-from backend.database import get_db
-from backend.models import User, Project, Activity
-from backend.schemas import ProductivityMetrics, ChurnMetrics, DashboardSummary
-from backend.routers.auth import get_current_user
+from database import get_db
+from models import User, Project, Activity
+from schemas import ProductivityMetrics, ChurnMetrics, DashboardSummary
+from routers.auth import get_current_user
 
 router = APIRouter(prefix="/analytics", tags=["Analytics"])
 

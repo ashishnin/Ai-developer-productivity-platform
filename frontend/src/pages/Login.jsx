@@ -26,7 +26,20 @@ const Login = () => {
       window.location.href = from;
     } catch (err) {
       console.error('Login error:', err);
-      const errorMessage = err.response?.data?.detail || err.message || 'Login failed. Please try again.';
+      let errorMessage = 'Login failed. Please try again.';
+      if (err.response?.data?.detail) {
+        const detail = err.response.data.detail;
+        if (Array.isArray(detail)) {
+          const messages = detail.map((e) => e.msg).join(', ');
+          errorMessage = messages;
+        } else if (typeof detail === 'string') {
+          errorMessage = detail;
+        } else {
+          errorMessage = JSON.stringify(detail);
+        }
+      } else if (err.message) {
+        errorMessage = err.message;
+      }
       setError(errorMessage);
     } finally {
       setLoading(false);

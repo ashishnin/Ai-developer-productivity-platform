@@ -1,0 +1,4 @@
+C:\Users\Ashishnin\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+Model trained and saved successfully
+{'risk_level': 'Low', 'risk_score': np.float64(16.5), 'factors': ['No significant risk factors detected'], 'recommendation': 'Module appears stable. Continue normal maintenance.'}
